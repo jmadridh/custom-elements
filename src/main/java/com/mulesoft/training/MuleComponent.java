@@ -22,8 +22,8 @@ public class MuleComponent {
 	public Map<String, String> processString(String input) {
 		Map<String, String> output = new HashMap<String, String>();
 		output.put("message", input);
-		output.put("processedBy", "processedArray");
-		return null;
+		output.put("processedBy", "processedString");
+		return output;
 	}
 
 }
